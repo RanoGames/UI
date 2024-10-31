@@ -13,9 +13,9 @@ public class GraphicSettings : MonoBehaviour
     {
 
     }
-    void Awake
+    void Awake()
     {
-        fullscreenToggle.isOn = Screen.fullScreen;
+        // fullscreenToggle.isOn = Screen.fullScreen;
     }
 
     // Update is called once per frame
