@@ -11,6 +11,23 @@ public class Menu : MonoBehaviour
     [SerializeField] GameObject MainMenu;
     [SerializeField] GameObject SettingsMenu;
     [SerializeField] TMP_Dropdown FpsDropdown;
+    [SerializeField] Toggle FullScreenToggle;
+    [SerializeField] public static int frame;
+    [SerializeField] public static float fpsTimer =3f;
+    [SerializeField] public static float pollingTime = 1f;
+    [SerializeField] public Text fpsText;
+    void Update()
+    {
+        fpsTimer += Time.deltaTime;
+        frame++;
+        if (fpsTimer >= pollingTime)
+        {
+            int frameRate = Mathf.RoundToInt(frame / fpsTimer);
+            fpsText.text = frameRate.ToString() + " FPS";
+            fpsTimer -= pollingTime;
+            frame = 0;
+        }
+    }
     void Start()
     {
         QualitySettings.vSyncCount = 0;
@@ -52,5 +69,9 @@ public class Menu : MonoBehaviour
                 Application.targetFrameRate = -1;
                 break;
         }
+    }
+    public void FullScreen()
+    {
+        FullScreenToggle.isOn = Screen.fullScreen;
     }
 }

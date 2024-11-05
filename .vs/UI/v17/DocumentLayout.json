@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MaxGit\\UI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB40B3AE-6C9A-B1E1-B01B-22B1E324FC0E}|Assembly-CSharp.csproj|c:\\maxgit\\ui\\assets\\scripts\\fpsdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB40B3AE-6C9A-B1E1-B01B-22B1E324FC0E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fpsdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FPSDisplay.cs",
+              "DocumentMoniker": "C:\\MaxGit\\UI\\Assets\\Scripts\\FPSDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FPSDisplay.cs",
+              "ToolTip": "C:\\MaxGit\\UI\\Assets\\Scripts\\FPSDisplay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FPSDisplay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:28:25.186Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
