@@ -263,7 +263,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &243611952
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1318,7 +1318,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e92f0c04052408042b64b05f9ccb5d8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fpsText: {fileID: 695310037}
 --- !u!114 &695310037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1623,7 +1622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &901020373
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1697,10 +1696,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a0fed5f1a3b0ed44a151d5735be36f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resolutions: {fileID: 0}
-  QualityPreset: {fileID: 0}
-  FullscreenMode: {fileID: 651468129}
-  VSyncMode: {fileID: 0}
 --- !u!1 &923281240
 GameObject:
   m_ObjectHideFlags: 0
